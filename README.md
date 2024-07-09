@@ -1,121 +1,41 @@
-# strong-cover-1612
+This project was built using NextJS, Chakra UI, MongoDB. It is an e-commerce web application and for running on your local environment you should follow these guidelines
+
+## Try on Initializ
+
+## On Dev 
+[![Kubeday India](https://res.cloudinary.com/daosik5yi/image/upload/f_auto,q_auto/pntsnjpa1sxbc2d02q9n)](https://console.dev.initializ.ai/create-app/?clone=https://github.com/initializ-templates/Developer-portfolio-template&repo_name=Developer-portfolio&description=♾%20This%20project%20was%20built%20using%20NextJS,%20Chakra%20UI,%20MongoDB.%20It%20is%20an%20e-commerce%20web%20application%20and%20for%20running%20on%20your%20local%20environment%20you%20should%20follow%20these%20guidelines&github=true)
+
+## On Prod 
+[![Kubeday India](https://res.cloudinary.com/daosik5yi/image/upload/f_auto,q_auto/pntsnjpa1sxbc2d02q9n)](https://console.initializ.ai/create-app/?clone=https://github.com/initializ-templates/Developer-portfolio-template&repo_name=Developer-portfolio&description=♾%20This%20project%20was%20built%20using%20NextJS,%20Chakra%20UI,%20MongoDB.%20It%20is%20an%20e-commerce%20web%20application%20and%20for%20running%20on%20your%20local%20environment%20you%20should%20follow%20these%20guidelines&github=true)
+
+## Prerequisite 
+### Must have an Account on [Initializ.ai](https://console.initializ.ai/register/)<br><br>
+
+#### Steps to Create Account
+ Step 1: [SignUp](https://console.initializ.ai/register/) <br>
+ <br>[![Sign Up](https://res.cloudinary.com/dd4xje8fc/image/upload/v1717773727/image_1_eaxyhp.png)](https://console.initializ.ai/register/)<br><br>
+ Step 2: Verify Your Email<br><br>
+ Step 3: [Sign In](https://console.initializ.ai/login/) <br><br>[![Sign In](https://res.cloudinary.com/dd4xje8fc/image/upload/v1717773726/image_2_pi56ah.png)](https://console.initializ.ai/login/)<br><br>
+ Step 4: [Deploy on Initializ](https://console.initializ.ai/create-app/?clone=https://github.com/initializ-templates/HellHeaven.com&repo_name=HellHeaven.com&description=♾%20This%20project%20was%20built%20using%20NextJS,%20Chakra%20UI,%20MongoDB.%20It%20is%20an%20e-commerce%20web%20application%20and%20for%20running%20on%20your%20local%20environment%20you%20should%20follow%20these%20guidelines&github=true)
 
 
-<h1 align="center">TripBook.com</h1>
+## How To Use 
 
-<h3 align="center">TripBook is a Next.JS project</h3>
+From your command line, clone and run HellHeaven.com:
 
-<br />
+```bash
+# Clone this repository
+git clone https://github.com/initializ-templates/HellHeaven.com.git
 
+# Go into the repository
+cd HellHeaven.com
 
-<h2 align="center">🖥️ Tech Stack</h2>
+# Setup default environment variables
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.Js-3bc7bd?logo=next.js&style=for-the-badge&logoColor=black" alt="next-js" />
-  <img src="https://img.shields.io/badge/Chakra%20UI-3bc7bd?style=for-the-badge&logo=chakraui&logoColor=white" alt="chakra-ui" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb" />
-  <img src="https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink" alt="jwt" />
-</p>
+# For Linux
+cp env.example .env
+# For Windows
+copy env.example .env
 
-<br />
-
-
-
-It’s a group project where we've used Next.JS to make the TripBook.com with our creativity along with frontend and backend integration
-its Fully Responsive booking web application that allows you to book hotels, flights and car rental. In this website you can filter, sort hotels by price, rating and reviews.
-
-
-
-
-<br />
-
-
-
-
- 
-## 🚀 User Features
-- Login and Signup User Account
-- Sorting Based on Price, Rating and Reviews
-- Hotels Page
-- Flight Page
-- car rental page
-- SignIn/SignUp
-- Checkout page
-
-<br />
-
-## Glimpses of TripBook.com 🙈 :
-
-
-<table>
-  <tr>
-    <td><img maxW="50%" src="https://i.ibb.co/Twq7Dq5/Screenshot-11.png"  /></td>
-    <td><img maxW="50%" src="https://i.ibb.co/wYWWLG7/Screenshot-12.png"   /></td>
-  </tr>
-  <tr>
-   <td><img src="https://i.ibb.co/m5qtdsg/Screenshot-13.png"  /></td>
-    <td><img src="https://i.ibb.co/SdfCr02/Screenshot-14.png" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://i.ibb.co/gRLr7Nw/Screenshot-15.png"  /></td>
-    <td><img src="https://i.ibb.co/HGrd1NT/Screenshot-16.png"  alt="men" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://i.ibb.co/6XsMDY7/Screenshot-17.png"   /></td>
-    <td><img src="https://i.ibb.co/74bBb7Z/Screenshot-18.png"   /></td>
-  </tr>
-   
-
-</table>
-
-<br />
-
-
-
-## Getting Started
-
-This project was built using NextJS, Chakra UI, MongoDB. It is an e-commerce web application and for running on your local environment you should follow these guidelines.
-
-
-
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run dev`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-
-
-
-### Tools used on this project
-
-- Visual Studio Code
-- MongoDB Atlas (Online hosting of data)
-
-<br />
-
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
+# Install dependencies
+npm install
